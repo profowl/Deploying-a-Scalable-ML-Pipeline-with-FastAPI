@@ -29,7 +29,8 @@ def sample_data():
     """
     Load a small subset of census data for testing.
     """
-    project_path = os.path.expanduser("~")
+    project_path = os.getwd()
+    print(project_path)
     data_path = os.path.join(
         project_path,
         "data",
