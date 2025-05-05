@@ -32,7 +32,6 @@ def sample_data():
     project_path = os.path.expanduser("~")
     data_path = os.path.join(
         project_path,
-        "Deploying-a-Scalable-ML-Pipeline-with-FastAPI",
         "data",
         "census.csv"
     )
